@@ -1,0 +1,9 @@
+<h1> Appointment </h1>
+
+<label>Doctor:</label>
+<%= @appointment.doctor.name %><br>
+<label>Patient:</label>
+<%= @appointment.patient.name %><br>
+<label>Date/Time:</label>
+<%= @appointment.appointment_datetime.strftime("%B %e, %Y at %H:%M") %><br>
+
